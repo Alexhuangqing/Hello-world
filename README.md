@@ -1,2 +1,2 @@
 # Hello-world
-say hellow world from Eclipse
+this is a first feature test !
