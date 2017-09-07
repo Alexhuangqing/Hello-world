@@ -1,2 +1,2 @@
 # Hello-world
-this is a first feature test !
+this is a first eclipse test !
