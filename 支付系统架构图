@@ -1,11 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2021-03-21T09:15:55.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="O49Q9Q8_AcqyoCs06-sI" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-21T09:44:12.586Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="FrnRYMPPf6zWLX8025y0" version="14.4.9" type="github">
   <diagram id="_kACdouT-csnIKqTGG0E" name="第 1 页">
-    <mxGraphModel dx="976" dy="188" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="188" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gFnaNdH5sK89j4EofKlU-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
-          <mxGeometry x="140" y="410" width="20" height="300" as="geometry" />
+        <mxCell id="gFnaNdH5sK89j4EofKlU-1" value="用户" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="103" y="442" width="35" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="gFnaNdH5sK89j4EofKlU-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="gFnaNdH5sK89j4EofKlU-2" target="gFnaNdH5sK89j4EofKlU-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="552" />
+              <mxPoint x="415" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFnaNdH5sK89j4EofKlU-29" value="保管费订单下单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5AA9E6;" vertex="1" connectable="0" parent="gFnaNdH5sK89j4EofKlU-28">
+          <mxGeometry x="-0.2142" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="柜机&lt;br&gt;前端" id="gFnaNdH5sK89j4EofKlU-2">
+          <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;direction=east;" vertex="1" parent="1">
+            <mxGeometry x="264" y="442" width="41" height="288" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gFnaNdH5sK89j4EofKlU-14" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="gFnaNdH5sK89j4EofKlU-7" target="gFnaNdH5sK89j4EofKlU-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="578" y="568" />
+              <mxPoint x="578" y="568" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFnaNdH5sK89j4EofKlU-32" value="下保管费订单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5AA9E6;" vertex="1" connectable="0" parent="gFnaNdH5sK89j4EofKlU-14">
+          <mxGeometry x="-0.0822" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="柜机&lt;br&gt;后台" id="gFnaNdH5sK89j4EofKlU-7">
+          <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;direction=east;" vertex="1" parent="1">
+            <mxGeometry x="431" y="442" width="46" height="306" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="支付&lt;br&gt;收银台" id="gFnaNdH5sK89j4EofKlU-13">
+          <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;direction=east;" vertex="1" parent="1">
+            <mxGeometry x="570" y="442" width="46" height="306" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="订单&lt;br&gt;中心" id="gFnaNdH5sK89j4EofKlU-15">
+          <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;direction=east;" vertex="1" parent="1">
+            <mxGeometry x="684" y="442" width="46" height="306" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="支付&lt;br&gt;核心系统" id="gFnaNdH5sK89j4EofKlU-17">
+          <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;direction=east;" vertex="1" parent="1">
+            <mxGeometry x="806" y="442" width="52" height="304" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="gFnaNdH5sK89j4EofKlU-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;fillColor=#d5e8d4;fontColor=#5AA9E6;" edge="1" parent="1" source="gFnaNdH5sK89j4EofKlU-1" target="gFnaNdH5sK89j4EofKlU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146" y="529" as="sourcePoint" />
+            <mxPoint x="236" y="617" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="254" y="529" />
+              <mxPoint x="254" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFnaNdH5sK89j4EofKlU-27" value="用户超时取件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5AA9E6;" vertex="1" connectable="0" parent="gFnaNdH5sK89j4EofKlU-20">
+          <mxGeometry x="-0.0814" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
