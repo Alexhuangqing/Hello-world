@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-21T12:09:27.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="AB1iR8gbs7s1y0SkZ_3i" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-21T12:11:18.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="zBXFEWu2pqFZIY4X-csk" version="14.4.9" type="github">
   <diagram id="_kACdouT-csnIKqTGG0E" name="第 1 页">
-    <mxGraphModel dx="1098" dy="292" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1680" dy="332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gFnaNdH5sK89j4EofKlU-1" value="用户" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="103" y="438" width="35" height="877" as="geometry" />
+          <mxGeometry x="103" y="438" width="35" height="834" as="geometry" />
         </mxCell>
         <mxCell id="gFnaNdH5sK89j4EofKlU-34" value="保管费&lt;br&gt;下单" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="gFnaNdH5sK89j4EofKlU-1">
           <mxGeometry x="12.5" y="82" width="10" height="109" as="geometry" />
@@ -118,7 +118,7 @@
         </mxCell>
         <object label="&lt;br&gt;前端" id="gFnaNdH5sK89j4EofKlU-2">
           <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;direction=east;" vertex="1" parent="1">
-            <mxGeometry x="264" y="438" width="41" height="878" as="geometry" />
+            <mxGeometry x="264" y="438" width="41" height="835" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="gFnaNdH5sK89j4EofKlU-75" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="gFnaNdH5sK89j4EofKlU-2" source="gFnaNdH5sK89j4EofKlU-69" target="gFnaNdH5sK89j4EofKlU-2">
@@ -217,7 +217,7 @@
         </mxCell>
         <object label="柜机&lt;br&gt;后台" id="gFnaNdH5sK89j4EofKlU-7">
           <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;direction=east;" vertex="1" parent="1">
-            <mxGeometry x="418" y="438" width="45" height="881" as="geometry" />
+            <mxGeometry x="418" y="438" width="45" height="838" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="gFnaNdH5sK89j4EofKlU-45" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="gFnaNdH5sK89j4EofKlU-2" target="gFnaNdH5sK89j4EofKlU-13">
@@ -287,7 +287,7 @@
         </mxCell>
         <object label="支付&lt;br&gt;收银台" id="gFnaNdH5sK89j4EofKlU-13">
           <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;direction=east;" vertex="1" parent="1">
-            <mxGeometry x="570" y="438" width="46" height="871" as="geometry" />
+            <mxGeometry x="570" y="438" width="46" height="839" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="gFnaNdH5sK89j4EofKlU-33" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="gFnaNdH5sK89j4EofKlU-15" target="gFnaNdH5sK89j4EofKlU-7">
@@ -321,7 +321,7 @@
         </mxCell>
         <object label="订单&lt;br&gt;中心" id="gFnaNdH5sK89j4EofKlU-15">
           <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;direction=east;" vertex="1" parent="1">
-            <mxGeometry x="691" y="439" width="46" height="867" as="geometry" />
+            <mxGeometry x="691" y="439" width="46" height="837" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="gFnaNdH5sK89j4EofKlU-61" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF6392;fillColor=#FFE45E;fontColor=#5AA9E6;" edge="1" parent="1" source="gFnaNdH5sK89j4EofKlU-17" target="gFnaNdH5sK89j4EofKlU-15">
@@ -352,7 +352,7 @@
         </mxCell>
         <object label="支付&lt;br&gt;核心系统" id="gFnaNdH5sK89j4EofKlU-17">
           <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;direction=east;" vertex="1" parent="1">
-            <mxGeometry x="806" y="439" width="52" height="858" as="geometry" />
+            <mxGeometry x="806" y="439" width="52" height="834" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="gFnaNdH5sK89j4EofKlU-20" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;fillColor=#d5e8d4;fontColor=#5AA9E6;" edge="1" parent="1" source="gFnaNdH5sK89j4EofKlU-1" target="gFnaNdH5sK89j4EofKlU-2">
