@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T06:46:23.644Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="ZBSNoPEddSE76dLI_E1x" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T06:53:03.854Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="ZPooEdZXEDs9Yhzal6oO" version="14.4.9" type="github">
   <diagram id="_kACdouT-csnIKqTGG0E" name="第 1 页">
     <mxGraphModel dx="1822" dy="362" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -498,8 +498,8 @@
             <mxPoint x="-30.5" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="81d6e2bYWxFrL2aatgft-4" value="sdk" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="77" y="1697.5" width="40" height="307" as="geometry" />
+        <mxCell id="81d6e2bYWxFrL2aatgft-4" value="客户端" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1693" width="40" height="307" as="geometry" />
         </mxCell>
         <mxCell id="81d6e2bYWxFrL2aatgft-17" value="receive" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="81d6e2bYWxFrL2aatgft-4">
           <mxGeometry x="15" y="75" width="10" height="182" as="geometry" />
@@ -532,7 +532,7 @@
             <mxPoint x="-1.5" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="81d6e2bYWxFrL2aatgft-5" value="system" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="81d6e2bYWxFrL2aatgft-5" value="服务端" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="368" y="1694" width="40" height="314" as="geometry" />
         </mxCell>
         <mxCell id="81d6e2bYWxFrL2aatgft-16" value="send" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="81d6e2bYWxFrL2aatgft-5">
@@ -557,8 +557,8 @@
             <mxPoint x="15.5" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="81d6e2bYWxFrL2aatgft-19" value="job" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="473" y="1696" width="40" height="316" as="geometry" />
+        <mxCell id="81d6e2bYWxFrL2aatgft-19" value="服务端job" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="473" y="1688.5" width="40" height="316" as="geometry" />
         </mxCell>
         <mxCell id="81d6e2bYWxFrL2aatgft-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
